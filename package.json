@@ -1,0 +1,29 @@
+{
+  "name": "playwright-learning",
+  "version": "1.0.0",
+  "description": "Playwright learning project upgraded with CI-ready config, data-driven tests and reporting.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:api": "playwright test tests/api",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "qa",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
