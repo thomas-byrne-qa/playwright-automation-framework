@@ -5,7 +5,7 @@ This project has been upgraded to look more like a QA automation portfolio proje
 ## What it covers
 - UI testing with Playwright Test
 - Page Object Model for Saucedemo flows
-- Data-driven testing from Excel files edit
+- Data-driven testing from Excel files 
 - API checks against JSONPlaceholder
 - CI-ready setup using GitHub Actions
 - HTML reporting, traces, screenshots and videos on failure
